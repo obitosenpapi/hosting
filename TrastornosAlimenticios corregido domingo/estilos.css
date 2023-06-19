@@ -1,0 +1,538 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    height: 90vh;
+    width: 100%;
+    background-image: url(tenedor.jpg);
+    background-color: rgb(50, 50, 50);
+    background-blend-mode: soft-light;
+    padding: 1px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background position: center;
+    font-family: "Yu Gothic Light";
+}
+
+.bloque{
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+nav{
+    max-width: 100%;
+    margin: auto;
+    background-color: #bb5e00;
+    font-size: 20px;
+}
+
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-horizontal > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-horizontal > li:hover{
+    background-color: #333333;
+}
+
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: #bb5e00;
+}
+
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+    border-radius: 25px;
+}
+
+.menu-vertical li:hover{
+    background-color: #333333;
+}
+
+.menu-vertical li a{
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}
+
+.origen{
+    height: 90vh;
+    width: 100%;
+    background-image: url(origen.jpg);
+    background-color: rgb(50, 50, 50);
+    background-blend-mode: soft-light;
+    padding: 1px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background position: center;
+    font-family: "Yu Gothic Light";
+}
+
+.restrictivo{
+    height: 90vh;
+    width: 100%;
+    background-image: url(restrictivo.webp);
+    background-color: rgb(50, 50, 50);
+    background-blend-mode: soft-light;
+    padding: 1px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background position: center;
+    font-family: "Yu Gothic Light";
+}
+
+.historia{
+    height: 90vh;
+    width: 100%;
+    background-image: url(historia.jpg);
+    background-color: rgb(50, 50, 50);
+    background-blend-mode: soft-light;
+    padding: 1px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background position: center;
+    font-family: "Yu Gothic Light";
+}
+
+.sintomas{
+    height: 90vh;
+    width: 100%;
+    background-image: url(sintomas.webp);
+    background-color: rgb(50, 50, 50);
+    background-blend-mode: soft-light;
+    padding: 1px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background position: center;
+    font-family: "Yu Gothic Light";
+}
+
+div.galeria{
+    margin: 10px 25px;
+    box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: left;
+    width: 320px;
+}
+
+div.galeria img{
+    width: 100%;
+    height: auto;
+}
+
+div.pie{
+    text-align: center;
+    text-shadow: 2px 2px 5px purple;
+    padding: 10px;
+}
+
+.slider{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+
+.anorexia{
+    height: 80vh;
+    width: 100%;
+    background-image: url(nerviosa.jpg);
+    background-blend-mode: soft-light;
+    padding: 1px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background position: center;
+    font-family: "Yu Gothic Light";
+    filter: brightness(65%);
+}
+
+.boton{
+    background-color: #bb5e00;
+    padding: 16px;
+    font-size: 18.7px;
+    color: white;
+    border-radius: 30px;
+    border-color: #bb5e00;
+}
+
+.boton a{
+    text-decoration: none;
+    color: white;
+}
+
+.boton:hover{
+    background: #333333;
+}
+
+.bulimia{
+    height: 80vh;
+    width: 100%;
+    background-image: url(bulimia.webp);
+    background-blend-mode: soft-light;
+    padding: 1px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background position: center;
+    font-family: "Yu Gothic Light";
+    filter: brightness(65%);
+}
+
+.atracon{
+    height: 80vh;
+    width: 100%;
+    background-image: url(atracon.avif);
+    background-blend-mode: soft-light;
+    padding: 1px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background position: center;
+    font-family: "Yu Gothic Light";
+    filter: brightness(65%);
+}
+
+.tcane{
+    height: 80vh;
+    width: 100%;
+    background-image: url(tcane.webp);
+    background-blend-mode: soft-light;
+    padding: 1px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background position: center;
+    font-family: "Yu Gothic Light";
+    filter: brightness(65%);
+}
+
+.pica{
+    height: 80vh;
+    width: 100%;
+    background-image: url(pica.jpg);
+    background-blend-mode: soft-light;
+    padding: 1px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background position: center;
+    font-family: "Yu Gothic Light";
+    filter: brightness(65%);
+}
+
+.rumiacion{
+    height: 80vh;
+    width: 100%;
+    background-image: url(rumiacion.jpg);
+    background-blend-mode: soft-light;
+    padding: 1px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background position: center;
+    font-family: "Yu Gothic Light";
+    filter: brightness(65%);
+}
+
+.evitacion{
+    height: 80vh;
+    width: 100%;
+    background-image: url(evitacion.jpg);
+    background-blend-mode: soft-light;
+    padding: 1px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background position: center;
+    font-family: "Yu Gothic Light";
+    filter: brightness(65%);
+}
+
+.img1{
+    float: left;
+    width: 260px;
+    height: 260px;
+    padding-right: 15px;
+}
+
+.img2{
+    height: 90vh;
+    width: 100%;
+    background-image: url(historia1.jpg);
+    background-blend-mode: soft-light;
+    padding: 1px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-size: cover;
+    background position: center;
+    font-family: "Yu Gothic Light";
+    filter: brightness(55%);
+}
+
+.img3{
+    height: 90vh;
+    width: 100%;
+    background-image: url(historia2.jpg);
+    background-blend-mode: soft-light;
+    padding: 1px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-size: cover;
+    background position: center;
+    font-family: "Yu Gothic Light";
+    filter: brightness(55%);
+}
+
+.img4{
+    height: 90vh;
+    width: 100%;
+    background-image: url(historia3.jpg);
+    background-blend-mode: soft-light;
+    padding: 1px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-size: cover;
+    background position: center;
+    font-family: "Yu Gothic Light";
+    filter: brightness(55%);
+}
+
+.img5{
+    height: 90vh;
+    width: 100%;
+    background-image: url(historia4.jpg);
+    background-blend-mode: soft-light;
+    padding: 1px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-size: cover;
+    background position: center;
+    font-family: "Yu Gothic Light";
+    filter: brightness(55%);
+}
+
+.img6{
+    float: left;
+    width: 265px;
+    height: 265px;
+    padding-right: 15px;
+}
+
+.img7{
+    float: left;
+    width: 250px;
+    height: 185px;
+    padding-right: 15px;
+}
+
+.img8{
+    float: left;
+    width: 300px;
+    height: 295px;
+    padding-right: 15px;
+}
+
+.img9{
+    float: left;
+    width: 280px;
+    height: 295px;
+    padding-right: 15px;
+}
+
+.img10{
+    float: left;
+    width: 300px;
+    height: 375px;
+    padding-right: 15px;
+}
+
+.img11{
+    float: left;
+    width: 300px;
+    height: 375px;
+    padding-right: 15px;
+}
+
+.img12{
+    float: left;
+    width: 300px;
+    height: 230px;
+    padding-right: 15px;
+}
+
+.slider1{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider1 ul{
+    padding: 0;
+    display: flex;
+    width: 400%;
+    animation: change 60s alternate infinite;
+}
+
+.slider1 li{
+    width: 100%;
+    list-style: none;
+}
+
+@keyframes change{
+    0% {
+        margin-left: 0;
+    }
+    20% {
+        margin-left: 0;
+    }
+    25% {
+        margin-left: -100%;
+    }
+    45% {
+        margin-left: -100%;
+    }
+    50% {
+        margin-left: -200%;
+    }
+    70% {
+        margin-left: -200%;
+    }
+    75% {
+        margin-left: -300%;
+    }
+    100% {
+        margin-left: -300%;
+    }
+}
+
+.evolucion{
+    height: 90vh;
+    width: 100%;
+    background-image: url(evolucion.jpeg);
+    background-blend-mode: soft-light;
+    padding: 1px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-size: cover;
+    background position: center;
+    font-family: "Yu Gothic Light";
+    filter: brightness(55%);
+}
+
+.sintomas{
+    height: 90vh;
+    width: 100%;
+    background-image: url(garganta.avif);
+    background-blend-mode: soft-light;
+    padding: 1px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-size: cover;
+    background position: center;
+    font-family: "Yu Gothic Light";
+    filter: brightness(55%);
+}
+
+.compulsivo{
+    height: 90vh;
+    width: 100%;
+    background-image: url(compulsivo.jpg);
+    background-color: rgb(50, 50, 50);
+    background-blend-mode: soft-light;
+    padding: 1px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background position: center;
+    font-family: "Yu Gothic Light";
+}
